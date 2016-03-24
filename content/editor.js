@@ -141,7 +141,9 @@ var InitEditor = function() {
       alertify.error("Sorry kodeWeave does not currently support that file type!")
     }
     $("[data-action=filetree]").empty()
-    fileTree()
+    setTimeout(function() {
+      fileTree()
+    }, 500)
     $("[data-action=filename]").clear()
 
     setTimeout(function() {
