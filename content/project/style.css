@@ -1,0 +1,6 @@
+@import url("libraries/normalize/normalize.css");
+
+body {
+  padding: 1em;
+  background: #56f6fe;
+}

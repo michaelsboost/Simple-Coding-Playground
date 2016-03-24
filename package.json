@@ -1,0 +1,15 @@
+{
+  "main"  : "content/index.html",
+  "name"  : "Code Editor",
+  "window": {
+    "toolbar"   : false,
+    "min_width" : 320,
+    "min_height": 480,
+    "width"     : 1000,
+    "height"    : 520
+  },
+  "app-id": "com.michael.editor",
+  "dependencies": {
+    "archiver": "^0.21.0"
+  }
+}

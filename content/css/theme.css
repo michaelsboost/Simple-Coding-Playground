@@ -1,0 +1,105 @@
+@import url("style.css");
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background: transparent;
+}
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}
+::-webkit-scrollbar-thumb {
+  background: #70bcff;
+  border: 0;
+  /*border-radius: 5em;*/
+  border-radius: 0;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #70ebff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #3da4ff;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+  border: 0;
+  /*border-radius: 5em;*/
+  border-radius: 0;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* File Tree */
+.filetree {
+  padding: 5px;
+  font-size: 18px;
+  color: ;
+}
+.filetree a:not(.fa) {
+  font-family: Lato;
+}
+.filetree .htmlfile {
+  color: #B57347;
+}
+.filetree .cssfile {
+  color: #5C6ED6;
+}
+.filetree .jsfile {
+  color: #23B136;
+}
+.filetree .mdfile {
+  color: #6D6D6D;
+}
+.filetree .htmlactive,
+.filetree .cssactive,
+.filetree .jsactive,
+.filetree .mdactive {
+  text-decoration: underline;
+}
+.filetree-wrapper {
+  background: #EDEAE8;
+}
+.fileinput-placer {
+  padding-left: 20px;
+}
+.fileinput-placer input {
+  /*font-size: 26px;*/
+  font: 26px Lato;
+  border: 0;
+  background: transparent;
+}
+.addfile {
+  font-size: 37px;
+  background: #D87878;
+  color: #fff;
+  border-radius: 25em;
+  text-shadow: 3px 4px #BD6262;
+  opacity: 0.8;
+  transition: all 300ms ease-in;
+}
+.addfile:hover {
+  opacity: 1;
+}
+
+/* Code Editors */
+.CodeMirror .cm-palette-hint {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: -2px 2px 0 6px;
+  border-radius: 50%;
+  vertical-align: middle;
+  width: 10px;
+  height: 10px;
+  box-shadow: 0 0 1px 2px #fff,
+              0 0 1px 3px #a0a09c;
+}
+.lint-error {
+  background: #ffa;
+  color: #a00;
+}
+.lint-error-icon {
+  color: white;
+  background-color: red;
+}
