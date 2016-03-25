@@ -147,10 +147,10 @@ var InitEditor = function() {
     $("[data-action=filename]").clear()
 
     setTimeout(function() {
+      $("[data-action=filetree] a:contains('"+   $("#mdEditor").attr("data-file") +"')").trigger("click")
       $("[data-action=filetree] a:contains('"+ $("#htmlEditor").attr("data-file") +"')").trigger("click")
       $("[data-action=filetree] a:contains('"+  $("#cssEditor").attr("data-file") +"')").trigger("click")
       $("[data-action=filetree] a:contains('"+   $("#jsEditor").attr("data-file") +"')").trigger("click")
-      $("[data-action=filetree] a:contains('"+   $("#mdEditor").attr("data-file") +"')").trigger("click")
     }, 500)
   })
   $("[data-action=filename]").on("keydown", function(e) {
