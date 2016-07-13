@@ -1,7 +1,7 @@
 Simple Coding Playground
 ===================
 
-I love coding playgrounds like [JSFiddle](http://jsfiddle.net/), [JSBin](http://jsbin.com/), [kodeWeave](http://kodeweave.sourceforge.net/), [Dabblet](http://dabblet.com/), etc: Yet all these editors have a **HUGE** flaw. None of them allow the user to create additional files.
+I love coding playgrounds like [JSFiddle](http://jsfiddle.net/), [JSBin](http://jsbin.com/), [kodeWeave](http://mikethedj4.github.io/kodeWeave/), [Dabblet](http://dabblet.com/), etc: Yet all these editors have a **HUGE** flaw. None of them allow the user to create additional files.
 
 [Plunker](https://plnkr.co/edit) is one of the few coding playgrounds that allows users to create additional files. However what I don't like about it is all your files only show up in 1 editor. Meaning if you're working on your html file you don't see your javascript, or css code until you select that file. Which makes it less productive than it could be.
 
@@ -30,7 +30,7 @@ This Coding Playground uses a number of open source projects to work properly:
 
 This application was built using [node-webkit](http://nwjs.io/) on my Mac. Which means it can easily be ported over to Windows or Linux using either [node-webkit](http://nwjs.io/) (for 32bit processors) or [Electron](http://electron.atom.io/) (for 64bit processors)
 
-You can use [WebDGap](https://webdgap.sourceforge.net/) to export your application or this application as a Windows, Linux or Mac application.
+You can use [WebDGap](http://mikethedj4.github.io/WebDGap/) to export your application or this application as a Windows, Linux or Mac application.
 
 Development
 -------------
