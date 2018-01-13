@@ -38,3 +38,5 @@ Development
 Want to contribute? Great!  
 
 You can also submit a pull request here on Github or simply share it with your friends :)
+
+You can show your appreciation by [Donating via SquareCash](https://cash.me/$michaelsboost) and/or [PayPal](https://www.paypal.me/mikethedj4)
