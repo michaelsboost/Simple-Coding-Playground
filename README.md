@@ -28,9 +28,9 @@ This Coding Playground uses a number of open source projects to work properly:
 * [CSSLint](http://csslint.net/) - for css syntax validation
 * [JSHint](http://jslint.com/) - for javascript syntax validation
 
-This application was built using [node-webkit](http://nwjs.io/) on my Mac. Which means it can easily be ported over to Windows or Linux using either [node-webkit](http://nwjs.io/) (for 32bit processors) or [Electron](http://electron.atom.io/) (for 64bit processors)
+This application was built using [node-webkit](http://nwjs.io/) on Mac Yosemite. Which means it can easily be ported over to Windows or Linux using either [node-webkit](http://nwjs.io/) (for 32bit processors) or [Electron](http://electron.atom.io/) (for 64bit processors)
 
-You can use [WebDGap](http://michaelsboost.github.io/WebDGap/) to export your application or this application as a Windows, Linux or Mac application.
+You can use [WebDGap](http://michaelsboost.github.io/WebDGap/) to export your application or this app's source code as a Windows, Linux or Mac application.
 
 Development
 -------------
@@ -38,5 +38,7 @@ Development
 Want to contribute? Great!  
 
 You can also submit a pull request here on Github or simply share it with your friends :)
+
+### Project is Officially Discontinued!
 
 You can show your appreciation by [Donating via SquareCash](https://cash.me/$michaelsboost) and/or [PayPal](https://www.paypal.me/mikethedj4)
